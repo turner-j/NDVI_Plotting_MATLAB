@@ -23,13 +23,14 @@ These scripts were specifically made to process the Terra Moderate Resolution Im
 
 ### Executing program
 
+* The input file name for NDVItesting_public.m (line 3) should be changed to match the name of one HDF4 file.
 * The program can be ran from start to finish.
 
 ## Help
 
 * You will need to change the sinusoidal projection constants for grid sizes other than 250 meters. These coordinates can be found in Appendix B of the [MODIS User Guide (Giglio et al, 2021)](https://modis-land.gsfc.nasa.gov/pdf/MODIS_C61_BA_User_Guide_1.0.pdf).
 
-* Changes may need to be made to file paths, folder, and variable names.
+* Changes may need to be made to file paths, folder and variable names.
 
 * Issues plotting time series data will arise if more than one file has the same start or end date in its file name.
 
